@@ -79,10 +79,23 @@ module.exports = configure(function (/* ctx */) {
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
 
-      
+      extendWebpack (cfg) {
+        cfg.target = 'electron-main'; // 或者 'electron-renderer'
+      },
       // vitePlugins: [
       //   [ 'package-name', { ..options.. } ]
       // ]
+      builder: {
+        // https://www.electron.build/configuration/configuration
+        appId: 'quasar-project',
+        win: {
+          publisherName: "quasar-project-ia32",
+          target: {
+            target: "nsis",
+            arch: ["ia32"]
+          }
+        }
+      }
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#devServer
@@ -191,7 +204,11 @@ module.exports = configure(function (/* ctx */) {
         // Windows only
         // win32metadata: { ... }
       },
-
+      // nodeIntegration: true,
+      // extendWebpack(cfg) {
+      //   // 使 __dirname 指向正确的位置
+      //   cfg.node.__dirname = 'mock';
+      // },
       builder: {
         // https://www.electron.build/configuration/configuration
 

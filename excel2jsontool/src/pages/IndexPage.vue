@@ -25,7 +25,6 @@
 import { transcode } from 'buffer';
 import { Todo, Meta } from 'components/models';
 import { defineComponent, onMounted, ref } from 'vue';
-import { ipcRenderer } from 'electron'
 
 export default defineComponent({
   name: 'IndexPage',
@@ -33,7 +32,7 @@ export default defineComponent({
   setup () {
     
     function SelectExcelFile(){
-      ipcRenderer.send('open-file-dialog-for-xlsx')
+      window.electron.ipcRenderer.send('open-file-dialog-for-xlsx')
     };
     function SelectOutputJsonDir(){
       alert("hello!");
@@ -42,7 +41,7 @@ export default defineComponent({
       alert("hello!");
     };
     onMounted(()=>{
-      ipcRenderer.on('selected-file', (event, path) => {
+      window.electron.ipcRenderer.on('selected-file', (event, path) => {
       console.log('Selected file', path);
     // Do something with the selected file path...
   });
