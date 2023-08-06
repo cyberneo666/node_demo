@@ -27,3 +27,33 @@
  *   }
  * }
  */
+// 注入 window.myAPI.doAThing() 到渲染进程的示例
+
+
+
+//import { ipcRenderer } from "electron/renderer"
+const { contextBridge,ipcRenderer } = require('electron')
+
+
+contextBridge.exposeInMainWorld('api',
+ {
+    selectXlsxFile: ()  => {
+            ipcRenderer.send('open-file-dialog-for-xlsx')
+            ipcRenderer.on('selected-file',(event,args)=>{
+                console.log(args)
+                return args
+            })
+            console.log("selectXlsxFile");
+            },
+    // send:(channel: string,data: any)=>{
+    //     ipcRenderer.invoke(channel,data).catch(e=>console.log(e))
+    // },
+    // receive:(channel: string,func: (arg0: string) => void)  => {
+    //     console.log('preload:receive from '+ channel )
+    //     ipcRenderer.on(channel,(event,args)=>func(args))   
+    // }
+ })
+ contextBridge.exposeInMainWorld('electronAPI', {
+    openFile: () => ipcRenderer.invoke('dialog:openFile')
+  })
+ 
