@@ -2,7 +2,9 @@ import { app, BrowserWindow, nativeTheme } from 'electron';
 import path from 'path'
 import os from 'os';
 import {dialog,ipcMain} from 'electron'
-
+import { ReadExcelAndTransform2Json} from './excel2json'
+let excelPath=''
+let jsonDir=''
 async function handleFileOpen () {
   const { canceled, filePaths } = await dialog.showOpenDialog({
     properties:['openFile'],
@@ -11,10 +13,33 @@ async function handleFileOpen () {
     ]
   })
   if (!canceled) {
+    excelPath = filePaths[0]
+    return filePaths[0]
+  }
+}
+async function handleDirSave () {
+  const { canceled, filePaths } = await dialog.showOpenDialog({
+    properties:['openDirectory']
+  })
+  if (!canceled) {
+    jsonDir=filePaths[0]
     return filePaths[0]
   }
 }
 
+async function handleTransform2Json () {
+   if(excelPath==''&&excelPath==undefined){
+    alert('Excel file is null!')
+    return
+   }
+   if(jsonDir==''&&jsonDir==undefined){
+    alert('Target json directory is null!')
+    return;
+   }
+   //load excel content,transform to json file
+   ReadExcelAndTransform2Json(excelPath,jsonDir)
+   console.log('handleTransform2json.excelPath='+excelPath)
+}
 // needed in case process is undefined under Linux
 const platform = process.platform || os.platform();
 
@@ -45,8 +70,8 @@ function createWindow() {
       contextIsolation: true,
       nodeIntegration:true,
       // More info: https://v2.quasar.dev/quasar-cli-vite/developing-electron-apps/electron-preload-script
-      // preload: electronPath.resolve(__filename, process.env.QUASAR_ELECTRON_PRELOAD),
-      preload: path.resolve(__filename,'/Users/miya/Desktop/node_demo/electron-demo/src-electron/electron-preload.ts'),
+      preload: path.resolve(__filename, process.env.QUASAR_ELECTRON_PRELOAD),
+      // preload: path.resolve(__filename,'/Users/miya/Desktop/node_demo/electron-demo/src-electron/electron-preload.ts'),
     },
   });
 
@@ -90,6 +115,8 @@ ipcMain.on('open-file-dialog-for-xlsx',(event)=>{
   
 }
 ipcMain.handle('dialog:openFile', handleFileOpen)
+ipcMain.handle('dialog:saveDir', handleDirSave)
+ipcMain.handle('transform:save2json',handleTransform2Json)
 app.whenReady().then(createWindow);
 
 app.on('window-all-closed', () => {

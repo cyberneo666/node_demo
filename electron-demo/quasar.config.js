@@ -59,7 +59,7 @@ module.exports = configure(function (/* ctx */) {
         browser: [ 'es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1' ],
         node: 'node16'
       },
-
+      devtool: 'source-map',
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
@@ -187,7 +187,7 @@ module.exports = configure(function (/* ctx */) {
     electron: {
       // extendElectronMainConf (esbuildConf)
       // extendElectronPreloadConf (esbuildConf)
-
+      
       inspectPort: 5858,
 
       bundler: 'packager', // 'packager' or 'builder'
@@ -205,10 +205,10 @@ module.exports = configure(function (/* ctx */) {
         // win32metadata: { ... }
       },
       // nodeIntegration: true,
-      // extendWebpack(cfg) {
-      //   // 使 __dirname 指向正确的位置
-      //   cfg.node.__dirname = 'mock';
-      // },
+      extendWebpack(cfg) {
+        cfg.devtool = ctx.dev ? "#cheap-module-eval-source-map" : "#source-map"
+      },
+    
       builder: {
         // https://www.electron.build/configuration/configuration
 

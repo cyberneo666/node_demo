@@ -3,12 +3,12 @@
   <div class="col-10 q-pa-md d-flex justify-center">
     <div class="q-mb-md">
       <q-btn color="white" text-color="black" label="选择Excel文件路径" @click="SelectExcelFile"/>
-      <q-input  readonly filled v-model="ph" placeholder="选择Excel文件" :dense="dense" />
+      <q-input  readonly filled v-model="excelPath" placeholder="选择Excel文件" :dense="dense" />
       
     </div>
     <div class="q-mb-md">
       <q-btn color="white" text-color="black" label="选择Json输出目录" @click="SelectOutputJsonDir"/>
-      <q-input  readonly filled v-model="ph" placeholder="选择Json输出目录" :dense="dense" />
+      <q-input  readonly filled v-model="jsonPathDir" placeholder="选择Json输出目录" :dense="dense" />
       
     </div>
     <div class="d-flex justify-center align-center">
@@ -24,40 +24,33 @@
 <script lang="ts">
 // import { transcode } from 'buffer';
 // import { Todo, Meta } from 'components/models';
-import { defineComponent, onMounted, ref } from 'vue';
+import { defineComponent,  ref } from 'vue';
 // import { BrowserWindow } from 'electron';
 
 export default defineComponent({
   name: 'IndexPage',
   
   setup () {
-    var ph =ref('')
-    // onMounted(()=>{
-    //   window.api.receive('selected-file',(args:string)=>{
-    //     ph.value=args
-    //      // ph.value='test'
-    //     alert(ph.value)
-    //   })
-    // });
+    var excelPath =ref('')
+    var jsonPathDir=ref('')
+   
     async function SelectExcelFile(){
-     // window.api.selectXlsxFile();
-      ph.value=await window.electronAPI.openFile()
-     
-
+     excelPath.value=await window.electronAPI.openExcelFile()
     };
     
-    function SelectOutputJsonDir(){
-      alert("hello!");
+    async function SelectOutputJsonDir(){
+      jsonPathDir.value=await window.electronAPI.saveJsonDir()
     };
-    function Translate2Json(){
-      alert("hello!");
+    async function Translate2Json(){
+      await window.electronAPI.transform2json();
     };
     
     return {
        
        model: ref(null),
        text: ref(''),
-      ph,
+       excelPath,
+       jsonPathDir,
       dense: ref(false),
       SelectExcelFile,
       SelectOutputJsonDir,
