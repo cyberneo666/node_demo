@@ -1,0 +1,203 @@
+{
+  "heads": [
+    "",
+    "$l(general_header_code1)",
+    "$l(general_header_code2)",
+    "$l(general_header_code3)",
+    "$l(general_header_code4)"
+  ],
+  "body": [
+    [
+      {
+        "title": "$l(general_title_1)",
+        "expression": "",
+        "type": "title",
+        "tip": {
+          "name": "",
+          "address": "",
+          "description": ""
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "HActPos/10000*43",
+        "format": ".2f",
+        "suffix": "m",
+        "type": "number",
+        "tip": {
+          "name": "HActPos",
+          "address": "MW08866",
+          "description": "&l(HActPos)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "TActPos/10000*117",
+        "format": ".2f",
+        "suffix": "m",
+        "type": "number",
+        "tip": {
+          "name": "TActPos",
+          "address": "MW08942",
+          "description": "&l(TActPos)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "BActPos/10000 *80",
+        "format": ".2f",
+        "suffix": "m",
+        "type": "number",
+        "tip": {
+          "name": "BActPos",
+          "address": "MW08982",
+          "description": "&l(BActPos)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "GActPos/100",
+        "format": ".2f",
+        "suffix": "m",
+        "type": "number",
+        "tip": {
+          "name": "GActPos",
+          "address": "MW8960",
+          "description": "&l(GActPos)"
+        }
+      }
+    ],
+    [
+      {
+        "title": "$l(general_title_2)",
+        "expression": "",
+        "type": "title",
+        "tip": {
+          "name": "",
+          "address": "",
+          "description": ""
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "HDrive1Value01/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "HDrive1Value01",
+          "address": "MW08861",
+          "description": "&l(HDrive1Value01)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "TDrive1Value01/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "TDrive1Value01",
+          "address": "MW08937",
+          "description": "&l(TDrive1Value01)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "BDrive1Value01/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "BDrive1Value01",
+          "address": "MW08977",
+          "description": "&l(BDrive1Value01)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "GDrive1Value01/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "GDrive1Value01",
+          "address": "MW08901",
+          "description": "&l(GDrive1Value01)"
+        }
+      }
+    ],
+    [
+      {
+        "title": "$l(general_title_3)",
+        "expression": "",
+        "type": "title",
+        "tip": {
+          "name": "",
+          "address": "",
+          "description": ""
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "HDrive1Value02/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "HDrive1Value02",
+          "address": "MW08862",
+          "description": "&l(HDrive1Value02)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "TDrive1Value02/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "TDrive1Value02",
+          "address": "MW08938",
+          "description": "&l(TDrive1Value02)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "BDrive1Value02/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "BDrive1Value02",
+          "address": "MW08978",
+          "description": "&l(BDrive1Value02)"
+        }
+      },
+      {
+        "title": "",
+        "title_Description": "",
+        "expression": "GDrive1Value02/100",
+        "format": ".0f",
+        "suffix": "%",
+        "type": "number",
+        "tip": {
+          "name": "GDrive1Value02",
+          "address": "MW08902",
+          "description": "&l(GDrive1Value02)"
+        }
+      }
+    ]
+  ]
+}

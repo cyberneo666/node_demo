@@ -1,0 +1,12 @@
+[
+  {
+    "name": "description-ch",
+    "default": true,
+    "enabled": true
+  },
+  {
+    "name": "description-en",
+    "default": false,
+    "enabled": true
+  }
+]

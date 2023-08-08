@@ -1,0 +1,6592 @@
+{
+  "$l(tab_tile_1)": {
+    "expression": "",
+    "group": "default",
+    "tabs": {
+      "$l(subtab_tile_11)": {
+        "expression": "",
+        "group": "default",
+        "plus": "",
+        "list": [
+          {
+            "title": "$l(CtrlOn)",
+            "expression": "CtrlOn",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "red",
+                "value": false
+              },
+              {
+                "key": "red"
+              }
+            ],
+            "tip": {
+              "name": "NoEstop",
+              "address": "MB08584.1",
+              "description": "&l(NoEstop)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation01)",
+            "expression": "CtrlStation01",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation02",
+              "address": "MB09415.1",
+              "description": "&l(CtrlStation02)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation02)",
+            "expression": "CtrlStation02",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation03",
+              "address": "MB09415.2",
+              "description": "&l(CtrlStation03)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation03)",
+            "expression": "CtrlStation03",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation04",
+              "address": "MB09415.3",
+              "description": "&l(CtrlStation04)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation04)",
+            "expression": "CtrlStation04",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation05",
+              "address": "MB09415.4",
+              "description": "&l(CtrlStation05)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation05)",
+            "expression": "CtrlStation05",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation06",
+              "address": "MB09415.5",
+              "description": "&l(CtrlStation06)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation06)",
+            "expression": "CtrlStation06",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation07",
+              "address": "MB09415.6",
+              "description": "&l(CtrlStation07)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation07)",
+            "expression": "CtrlStation07",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation08",
+              "address": "MB09415.7",
+              "description": "&l(CtrlStation08)"
+            }
+          },
+          {
+            "title": "$l(CtrlStation08)",
+            "expression": "CtrlStation08",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "Estop01",
+              "address": "MB09032.0",
+              "description": "&l(Estop01)"
+            }
+          }
+        ]
+      },
+      "$l(subtab_tile_12)": {
+        "expression": "",
+        "group": "default",
+        "plus": "",
+        "list": [
+          {
+            "title": "$l(WindSpeed01)",
+            "expression": "WindSpeed01",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "WindSpeed02",
+              "address": "MB08852.10",
+              "description": "&l(WindSpeed02)"
+            }
+          },
+          {
+            "title": "$l(WindSpeed02)",
+            "expression": "WindSpeed02",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "WindSpeed03",
+              "address": "MB08852.11",
+              "description": "&l(WindSpeed03)"
+            }
+          },
+          {
+            "title": "$l(WindSpeed03)",
+            "expression": "WindSpeed03",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1757B",
+              "address": "MB08567.B",
+              "description": "&l(FLTS1757B)"
+            }
+          },
+          {
+            "title": "$l(WindSpeed)",
+            "expression": "WindSpeed/100",
+            "type": "number",
+            "group": "default",
+            "suffix": "m/s",
+            "options": [],
+            "tip": {}
+          },
+          {
+            "title": "$l(WindDir)",
+            "expression": "WindDir/10",
+            "type": "number",
+            "group": "default",
+            "suffix": "°",
+            "options": [],
+            "tip": {}
+          }
+        ]
+      },
+      "$l(subtab_tile_13)": {
+        "expression": "",
+        "group": "default",
+        "plus": "false",
+        "list": [
+          {
+            "title": "$l(SFT20)",
+            "expression": "SFT20",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "SFT20Cmd",
+              "address": "MB09009.4",
+              "description": "&l(SFT20Cmd)"
+            }
+          },
+          {
+            "title": "$l(SFT40)",
+            "expression": "SFT40",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "SFT40Cmd",
+              "address": "MB09009.5",
+              "description": "&l(SFT40Cmd)"
+            }
+          },
+          {
+            "title": "$l(SFT45)",
+            "expression": "SFT45",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "SFT45Cmd",
+              "address": "MB09009.6",
+              "description": "&l(SFT45Cmd)"
+            }
+          },
+          {
+            "title": "$l(STwinDown)",
+            "expression": "STwinDown",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "STwinDownCmd",
+              "address": "MB09013.0",
+              "description": "&l(STwinDownCmd)"
+            }
+          },
+          {
+            "title": "$l(SLock)",
+            "expression": "SLock",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "SLockCmd",
+              "address": "MB09009.10",
+              "description": "&l(SLockCmd)"
+            }
+          },
+          {
+            "title": "$l(SUnlock)",
+            "expression": "SUnlock",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "SUnlockCmd",
+              "address": "MB09009.11",
+              "description": "&l(SUnlockCmd)"
+            }
+          },
+          {
+            "title": "$l(SLand)",
+            "expression": "SLand",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "light-green accent-3",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "SListAngle",
+              "address": "MW09404",
+              "description": "&l(SListAngle)"
+            }
+          },
+          {
+            "title": "$l(SLoad)",
+            "expression": "SLoad/100",
+            "type": "number",
+            "group": "default",
+            "suffix": "ton",
+            "options": [],
+            "tip": {}
+          },
+          {
+            "title": "$l(STrimAngle)",
+            "expression": "STrimAngle/10",
+            "type": "number",
+            "group": "default",
+            "suffix": "°",
+            "options": [],
+            "tip": {}
+          },
+          {
+            "title": "$l(SListAngle)",
+            "expression": "SListAngle/10",
+            "type": "number",
+            "group": "default",
+            "suffix": "°",
+            "options": [],
+            "tip": {}
+          },
+          {
+            "title": "$l(SSkewAngle)",
+            "expression": "SSkewAngle/10",
+            "type": "number",
+            "group": "default",
+            "suffix": "°",
+            "options": [],
+            "tip": {}
+          }
+        ]
+      }
+    }
+  },
+  "$l(tab_tile_2)": {
+    "expression": "",
+    "group": "default",
+    "tabs": {
+      "$l(subtab_tile_21)": {
+        "expression": "",
+        "group": "default",
+        "plus": "true",
+        "list": [
+          {
+            "title": "$l(CtrlPrm01)",
+            "expression": "CtrlPrm01",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm02",
+              "address": "MB08510.1",
+              "description": "&l(CtrlPrm02)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm02)",
+            "expression": "CtrlPrm02",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm03",
+              "address": "MB08510.2",
+              "description": "&l(CtrlPrm03)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm03)",
+            "expression": "CtrlPrm03",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm04",
+              "address": "MB08510.3",
+              "description": "&l(CtrlPrm04)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm04)",
+            "expression": "CtrlPrm04",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm05",
+              "address": "MB08510.10",
+              "description": "&l(CtrlPrm05)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm05)",
+            "expression": "CtrlPrm05",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm06",
+              "address": "MB08510.11",
+              "description": "&l(CtrlPrm06)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm06)",
+            "expression": "CtrlPrm06",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm07",
+              "address": "MB08510.14",
+              "description": "&l(CtrlPrm07)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm07)",
+            "expression": "CtrlPrm07",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm08",
+              "address": "MB08510.15",
+              "description": "&l(CtrlPrm08)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm08)",
+            "expression": "CtrlPrm08",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm09",
+              "address": "MB08524.8",
+              "description": "&l(CtrlPrm09)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm09)",
+            "expression": "CtrlPrm09",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm10",
+              "address": "MB08524.9",
+              "description": "&l(CtrlPrm10)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm10)",
+            "expression": "CtrlPrm10",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm11",
+              "address": "MB08551.10",
+              "description": "&l(CtrlPrm11)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm11)",
+            "expression": "CtrlPrm11",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm12",
+              "address": "MB08551.11",
+              "description": "&l(CtrlPrm12)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm12)",
+            "expression": "CtrlPrm12",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm13",
+              "address": "MB08551.12",
+              "description": "&l(CtrlPrm13)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm13)",
+            "expression": "CtrlPrm13",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm14",
+              "address": "MB08551.13",
+              "description": "&l(CtrlPrm14)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm14)",
+            "expression": "CtrlPrm14",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm15",
+              "address": "MB08551.14",
+              "description": "&l(CtrlPrm15)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm15)",
+            "expression": "CtrlPrm15",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm16",
+              "address": "MB08551.15",
+              "description": "&l(CtrlPrm16)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm16)",
+            "expression": "CtrlPrm16",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm17",
+              "address": "MB08552.0",
+              "description": "&l(CtrlPrm17)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm17)",
+            "expression": "CtrlPrm17",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm18",
+              "address": "MB08552.1",
+              "description": "&l(CtrlPrm18)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm18)",
+            "expression": "CtrlPrm18",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm19",
+              "address": "MB08552.2",
+              "description": "&l(CtrlPrm19)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm19)",
+            "expression": "CtrlPrm19",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm20",
+              "address": "MB08552.3",
+              "description": "&l(CtrlPrm20)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm20)",
+            "expression": "CtrlPrm20",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm21",
+              "address": "MB08552.4",
+              "description": "&l(CtrlPrm21)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm21)",
+            "expression": "CtrlPrm21",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm22",
+              "address": "MB08552.5",
+              "description": "&l(CtrlPrm22)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm22)",
+            "expression": "CtrlPrm22",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm23",
+              "address": "MB08552.6",
+              "description": "&l(CtrlPrm23)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm23)",
+            "expression": "CtrlPrm23",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm24",
+              "address": "MB08552.7",
+              "description": "&l(CtrlPrm24)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm24)",
+            "expression": "CtrlPrm24",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm25",
+              "address": "MB08552.8",
+              "description": "&l(CtrlPrm25)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm25)",
+            "expression": "CtrlPrm25",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm26",
+              "address": "MB08552.10",
+              "description": "&l(CtrlPrm26)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm26)",
+            "expression": "CtrlPrm26",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm27",
+              "address": "MB08552.11",
+              "description": "&l(CtrlPrm27)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm27)",
+            "expression": "CtrlPrm27",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm28",
+              "address": "MB08552.12",
+              "description": "&l(CtrlPrm28)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm28)",
+            "expression": "CtrlPrm28",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm29",
+              "address": "MB08552.13",
+              "description": "&l(CtrlPrm29)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm29)",
+            "expression": "CtrlPrm29",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm30",
+              "address": "MB08552.14",
+              "description": "&l(CtrlPrm30)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm30)",
+            "expression": "CtrlPrm30",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm31",
+              "address": "MB08552.15",
+              "description": "&l(CtrlPrm31)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm31)",
+            "expression": "CtrlPrm31",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm32",
+              "address": "MB08553.0",
+              "description": "&l(CtrlPrm32)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm32)",
+            "expression": "CtrlPrm32",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm33",
+              "address": "MB08553.4",
+              "description": "&l(CtrlPrm33)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm33)",
+            "expression": "CtrlPrm33",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm34",
+              "address": "MB08553.5",
+              "description": "&l(CtrlPrm34)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm34)",
+            "expression": "CtrlPrm34",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm35",
+              "address": "MB08553.6",
+              "description": "&l(CtrlPrm35)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm35)",
+            "expression": "CtrlPrm35",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm36",
+              "address": "MB08553.7",
+              "description": "&l(CtrlPrm36)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm36)",
+            "expression": "CtrlPrm36",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm37",
+              "address": "MB08564.14",
+              "description": "&l(CtrlPrm37)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm37)",
+            "expression": "CtrlPrm37",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm38",
+              "address": "MB08564.15",
+              "description": "&l(CtrlPrm38)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm38)",
+            "expression": "CtrlPrm38",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm39",
+              "address": "MB08565.0",
+              "description": "&l(CtrlPrm39)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm39)",
+            "expression": "CtrlPrm39",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm40",
+              "address": "MB08565.1",
+              "description": "&l(CtrlPrm40)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm40)",
+            "expression": "CtrlPrm40",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm41",
+              "address": "MB08565.2",
+              "description": "&l(CtrlPrm41)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm41)",
+            "expression": "CtrlPrm41",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm42",
+              "address": "MB08565.3",
+              "description": "&l(CtrlPrm42)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm42)",
+            "expression": "CtrlPrm42",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm43",
+              "address": "MB08565.4",
+              "description": "&l(CtrlPrm43)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm43)",
+            "expression": "CtrlPrm43",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm44",
+              "address": "MB08565.5",
+              "description": "&l(CtrlPrm44)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm44)",
+            "expression": "CtrlPrm44",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm45",
+              "address": "MB08565.6",
+              "description": "&l(CtrlPrm45)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm45)",
+            "expression": "CtrlPrm45",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm46",
+              "address": "MB08565.7",
+              "description": "&l(CtrlPrm46)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm46)",
+            "expression": "CtrlPrm46",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm47",
+              "address": "MB08565.8",
+              "description": "&l(CtrlPrm47)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm47)",
+            "expression": "CtrlPrm47",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm48",
+              "address": "MB08565.9",
+              "description": "&l(CtrlPrm48)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm48)",
+            "expression": "CtrlPrm48",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm49",
+              "address": "MB08565.10",
+              "description": "&l(CtrlPrm49)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm49)",
+            "expression": "CtrlPrm49",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm50",
+              "address": "MB08565.11",
+              "description": "&l(CtrlPrm50)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm50)",
+            "expression": "CtrlPrm50",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm51",
+              "address": "MB08565.12",
+              "description": "&l(CtrlPrm51)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm51)",
+            "expression": "CtrlPrm51",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm52",
+              "address": "MB08565.13",
+              "description": "&l(CtrlPrm52)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm52)",
+            "expression": "CtrlPrm52",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm53",
+              "address": "MB08565.14",
+              "description": "&l(CtrlPrm53)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm53)",
+            "expression": "CtrlPrm53",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm54",
+              "address": "MB08565.15",
+              "description": "&l(CtrlPrm54)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm54)",
+            "expression": "CtrlPrm54",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm55",
+              "address": "MB08566.10",
+              "description": "&l(CtrlPrm55)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm55)",
+            "expression": "CtrlPrm55",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm56",
+              "address": "MB08567.8",
+              "description": "&l(CtrlPrm56)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm56)",
+            "expression": "CtrlPrm56",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm57",
+              "address": "MB08567.9",
+              "description": "&l(CtrlPrm57)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm57)",
+            "expression": "CtrlPrm57",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm58",
+              "address": "MB08567.10",
+              "description": "&l(CtrlPrm58)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm58)",
+            "expression": "CtrlPrm58",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm59",
+              "address": "MB08575.8",
+              "description": "&l(CtrlPrm59)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm59)",
+            "expression": "CtrlPrm59",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlPrm60",
+              "address": "MB08575.14",
+              "description": "&l(CtrlPrm60)"
+            }
+          },
+          {
+            "title": "$l(CtrlPrm60)",
+            "expression": "CtrlPrm60",
+            "type": "indicator",
+            "group": "default",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "CtrlStation01",
+              "address": "MB09415.0",
+              "description": "&l(CtrlStation01)"
+            }
+          }
+        ]
+      },
+      "$l(subtab_tile_22)": {
+        "expression": "",
+        "group": "default",
+        "plus": "true",
+        "list": [
+          {
+            "title": "$l(FLTS17005)",
+            "expression": "FLTS17005",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1700C",
+              "address": "MB08510.C",
+              "description": "&l(FLTS1700C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1700C)",
+            "expression": "FLTS1700C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17016",
+              "address": "MB08511.6",
+              "description": "&l(FLTS17016)"
+            }
+          },
+          {
+            "title": "$l(FLTS17016)",
+            "expression": "FLTS17016",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17017",
+              "address": "MB08511.7",
+              "description": "&l(FLTS17017)"
+            }
+          },
+          {
+            "title": "$l(FLTS17017)",
+            "expression": "FLTS17017",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17018",
+              "address": "MB08511.8",
+              "description": "&l(FLTS17018)"
+            }
+          },
+          {
+            "title": "$l(FLTS17018)",
+            "expression": "FLTS17018",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17019",
+              "address": "MB08511.9",
+              "description": "&l(FLTS17019)"
+            }
+          },
+          {
+            "title": "$l(FLTS17019)",
+            "expression": "FLTS17019",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1701A",
+              "address": "MB08511.A",
+              "description": "&l(FLTS1701A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1701A)",
+            "expression": "FLTS1701A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1701B",
+              "address": "MB08511.B",
+              "description": "&l(FLTS1701B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1701B)",
+            "expression": "FLTS1701B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1701C",
+              "address": "MB08511.C",
+              "description": "&l(FLTS1701C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1701C)",
+            "expression": "FLTS1701C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1701D",
+              "address": "MB08511.D",
+              "description": "&l(FLTS1701D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1701D)",
+            "expression": "FLTS1701D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1701E",
+              "address": "MB08511.E",
+              "description": "&l(FLTS1701E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1701E)",
+            "expression": "FLTS1701E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17060",
+              "address": "MB08516.0",
+              "description": "&l(FLTS17060)"
+            }
+          },
+          {
+            "title": "$l(FLTS17060)",
+            "expression": "FLTS17060",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17062",
+              "address": "MB08516.2",
+              "description": "&l(FLTS17062)"
+            }
+          },
+          {
+            "title": "$l(FLTS17062)",
+            "expression": "FLTS17062",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17064",
+              "address": "MB08516.4",
+              "description": "&l(FLTS17064)"
+            }
+          },
+          {
+            "title": "$l(FLTS17064)",
+            "expression": "FLTS17064",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17068",
+              "address": "MB08516.8",
+              "description": "&l(FLTS17068)"
+            }
+          },
+          {
+            "title": "$l(FLTS17068)",
+            "expression": "FLTS17068",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17073",
+              "address": "MB08517.3",
+              "description": "&l(FLTS17073)"
+            }
+          },
+          {
+            "title": "$l(FLTS17073)",
+            "expression": "FLTS17073",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17090",
+              "address": "MB08519.0",
+              "description": "&l(FLTS17090)"
+            }
+          },
+          {
+            "title": "$l(FLTS17090)",
+            "expression": "FLTS17090",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17091",
+              "address": "MB08519.1",
+              "description": "&l(FLTS17091)"
+            }
+          },
+          {
+            "title": "$l(FLTS17091)",
+            "expression": "FLTS17091",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17092",
+              "address": "MB08519.2",
+              "description": "&l(FLTS17092)"
+            }
+          },
+          {
+            "title": "$l(FLTS17092)",
+            "expression": "FLTS17092",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17093",
+              "address": "MB08519.3",
+              "description": "&l(FLTS17093)"
+            }
+          },
+          {
+            "title": "$l(FLTS17093)",
+            "expression": "FLTS17093",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17094",
+              "address": "MB08519.4",
+              "description": "&l(FLTS17094)"
+            }
+          },
+          {
+            "title": "$l(FLTS17094)",
+            "expression": "FLTS17094",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17095",
+              "address": "MB08519.5",
+              "description": "&l(FLTS17095)"
+            }
+          },
+          {
+            "title": "$l(FLTS17095)",
+            "expression": "FLTS17095",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17096",
+              "address": "MB08519.6",
+              "description": "&l(FLTS17096)"
+            }
+          },
+          {
+            "title": "$l(FLTS17096)",
+            "expression": "FLTS17096",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17097",
+              "address": "MB08519.7",
+              "description": "&l(FLTS17097)"
+            }
+          },
+          {
+            "title": "$l(FLTS17097)",
+            "expression": "FLTS17097",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17098",
+              "address": "MB08519.8",
+              "description": "&l(FLTS17098)"
+            }
+          },
+          {
+            "title": "$l(FLTS17098)",
+            "expression": "FLTS17098",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17099",
+              "address": "MB08519.9",
+              "description": "&l(FLTS17099)"
+            }
+          },
+          {
+            "title": "$l(FLTS17099)",
+            "expression": "FLTS17099",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1709A",
+              "address": "MB08519.A",
+              "description": "&l(FLTS1709A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1709A)",
+            "expression": "FLTS1709A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1709B",
+              "address": "MB08519.B",
+              "description": "&l(FLTS1709B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1709B)",
+            "expression": "FLTS1709B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1709C",
+              "address": "MB08519.C",
+              "description": "&l(FLTS1709C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1709C)",
+            "expression": "FLTS1709C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1709D",
+              "address": "MB08519.D",
+              "description": "&l(FLTS1709D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1709D)",
+            "expression": "FLTS1709D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1709E",
+              "address": "MB08519.E",
+              "description": "&l(FLTS1709E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1709E)",
+            "expression": "FLTS1709E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1710E",
+              "address": "MB08520.E",
+              "description": "&l(FLTS1710E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1710E)",
+            "expression": "FLTS1710E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1710F",
+              "address": "MB08520.F",
+              "description": "&l(FLTS1710F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1710F)",
+            "expression": "FLTS1710F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17120",
+              "address": "MB08522.0",
+              "description": "&l(FLTS17120)"
+            }
+          },
+          {
+            "title": "$l(FLTS17120)",
+            "expression": "FLTS17120",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1712D",
+              "address": "MB08522.D",
+              "description": "&l(FLTS1712D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1712D)",
+            "expression": "FLTS1712D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1712E",
+              "address": "MB08522.E",
+              "description": "&l(FLTS1712E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1712E)",
+            "expression": "FLTS1712E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1712F",
+              "address": "MB08522.F",
+              "description": "&l(FLTS1712F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1712F)",
+            "expression": "FLTS1712F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17190",
+              "address": "MB08529.0",
+              "description": "&l(FLTS17190)"
+            }
+          },
+          {
+            "title": "$l(FLTS17190)",
+            "expression": "FLTS17190",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17191",
+              "address": "MB08529.1",
+              "description": "&l(FLTS17191)"
+            }
+          },
+          {
+            "title": "$l(FLTS17191)",
+            "expression": "FLTS17191",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17192",
+              "address": "MB08529.2",
+              "description": "&l(FLTS17192)"
+            }
+          },
+          {
+            "title": "$l(FLTS17192)",
+            "expression": "FLTS17192",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17202",
+              "address": "MB08530.2",
+              "description": "&l(FLTS17202)"
+            }
+          },
+          {
+            "title": "$l(FLTS17202)",
+            "expression": "FLTS17202",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17203",
+              "address": "MB08530.3",
+              "description": "&l(FLTS17203)"
+            }
+          },
+          {
+            "title": "$l(FLTS17203)",
+            "expression": "FLTS17203",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17212",
+              "address": "MB08531.2",
+              "description": "&l(FLTS17212)"
+            }
+          },
+          {
+            "title": "$l(FLTS17212)",
+            "expression": "FLTS17212",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17213",
+              "address": "MB08531.3",
+              "description": "&l(FLTS17213)"
+            }
+          },
+          {
+            "title": "$l(FLTS17213)",
+            "expression": "FLTS17213",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17214",
+              "address": "MB08531.4",
+              "description": "&l(FLTS17214)"
+            }
+          },
+          {
+            "title": "$l(FLTS17214)",
+            "expression": "FLTS17214",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17215",
+              "address": "MB08531.5",
+              "description": "&l(FLTS17215)"
+            }
+          },
+          {
+            "title": "$l(FLTS17215)",
+            "expression": "FLTS17215",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17216",
+              "address": "MB08531.6",
+              "description": "&l(FLTS17216)"
+            }
+          },
+          {
+            "title": "$l(FLTS17216)",
+            "expression": "FLTS17216",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17217",
+              "address": "MB08531.7",
+              "description": "&l(FLTS17217)"
+            }
+          },
+          {
+            "title": "$l(FLTS17217)",
+            "expression": "FLTS17217",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17218",
+              "address": "MB08531.8",
+              "description": "&l(FLTS17218)"
+            }
+          },
+          {
+            "title": "$l(FLTS17218)",
+            "expression": "FLTS17218",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17219",
+              "address": "MB08531.9",
+              "description": "&l(FLTS17219)"
+            }
+          },
+          {
+            "title": "$l(FLTS17219)",
+            "expression": "FLTS17219",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1721C",
+              "address": "MB08531.C",
+              "description": "&l(FLTS1721C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1721C)",
+            "expression": "FLTS1721C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1721D",
+              "address": "MB08531.D",
+              "description": "&l(FLTS1721D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1721D)",
+            "expression": "FLTS1721D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1721E",
+              "address": "MB08531.E",
+              "description": "&l(FLTS1721E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1721E)",
+            "expression": "FLTS1721E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1721F",
+              "address": "MB08531.F",
+              "description": "&l(FLTS1721F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1721F)",
+            "expression": "FLTS1721F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17222",
+              "address": "MB08532.2",
+              "description": "&l(FLTS17222)"
+            }
+          },
+          {
+            "title": "$l(FLTS17222)",
+            "expression": "FLTS17222",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17223",
+              "address": "MB08532.3",
+              "description": "&l(FLTS17223)"
+            }
+          },
+          {
+            "title": "$l(FLTS17223)",
+            "expression": "FLTS17223",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17224",
+              "address": "MB08532.4",
+              "description": "&l(FLTS17224)"
+            }
+          },
+          {
+            "title": "$l(FLTS17224)",
+            "expression": "FLTS17224",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17225",
+              "address": "MB08532.5",
+              "description": "&l(FLTS17225)"
+            }
+          },
+          {
+            "title": "$l(FLTS17225)",
+            "expression": "FLTS17225",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17226",
+              "address": "MB08532.6",
+              "description": "&l(FLTS17226)"
+            }
+          },
+          {
+            "title": "$l(FLTS17226)",
+            "expression": "FLTS17226",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17227",
+              "address": "MB08532.7",
+              "description": "&l(FLTS17227)"
+            }
+          },
+          {
+            "title": "$l(FLTS17227)",
+            "expression": "FLTS17227",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17228",
+              "address": "MB08532.8",
+              "description": "&l(FLTS17228)"
+            }
+          },
+          {
+            "title": "$l(FLTS17228)",
+            "expression": "FLTS17228",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17229",
+              "address": "MB08532.9",
+              "description": "&l(FLTS17229)"
+            }
+          },
+          {
+            "title": "$l(FLTS17229)",
+            "expression": "FLTS17229",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17240",
+              "address": "MB08534.0",
+              "description": "&l(FLTS17240)"
+            }
+          },
+          {
+            "title": "$l(FLTS17233)",
+            "expression": "FLTS17233",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {}
+          },
+          {
+            "title": "$l(FLTS17240)",
+            "expression": "FLTS17240",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1724F",
+              "address": "MB08534.F",
+              "description": "&l(FLTS1724F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1724F)",
+            "expression": "FLTS1724F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17257",
+              "address": "MB08535.7",
+              "description": "&l(FLTS17257)"
+            }
+          },
+          {
+            "title": "$l(FLTS17257)",
+            "expression": "FLTS17257",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17274",
+              "address": "MB08537.4",
+              "description": "&l(FLTS17274)"
+            }
+          },
+          {
+            "title": "$l(FLTS17274)",
+            "expression": "FLTS17274",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1727C",
+              "address": "MB08537.C",
+              "description": "&l(FLTS1727C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1727C)",
+            "expression": "FLTS1727C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1727D",
+              "address": "MB08537.D",
+              "description": "&l(FLTS1727D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1727D)",
+            "expression": "FLTS1727D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17280",
+              "address": "MB08538.0",
+              "description": "&l(FLTS17280)"
+            }
+          },
+          {
+            "title": "$l(FLTS17280)",
+            "expression": "FLTS17280",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17281",
+              "address": "MB08538.1",
+              "description": "&l(FLTS17281)"
+            }
+          },
+          {
+            "title": "$l(FLTS17281)",
+            "expression": "FLTS17281",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17282",
+              "address": "MB08538.2",
+              "description": "&l(FLTS17282)"
+            }
+          },
+          {
+            "title": "$l(FLTS17282)",
+            "expression": "FLTS17282",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17289",
+              "address": "MB08538.9",
+              "description": "&l(FLTS17289)"
+            }
+          },
+          {
+            "title": "$l(FLTS17289)",
+            "expression": "FLTS17289",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1728A",
+              "address": "MB08538.A",
+              "description": "&l(FLTS1728A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1728A)",
+            "expression": "FLTS1728A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1728B",
+              "address": "MB08538.B",
+              "description": "&l(FLTS1728B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1728B)",
+            "expression": "FLTS1728B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1728C",
+              "address": "MB08538.C",
+              "description": "&l(FLTS1728C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1728C)",
+            "expression": "FLTS1728C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1728D",
+              "address": "MB08538.D",
+              "description": "&l(FLTS1728D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1728D)",
+            "expression": "FLTS1728D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1728E",
+              "address": "MB08538.E",
+              "description": "&l(FLTS1728E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1728E)",
+            "expression": "FLTS1728E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17299",
+              "address": "MB08539.9",
+              "description": "&l(FLTS17299)"
+            }
+          },
+          {
+            "title": "$l(FLTS17299)",
+            "expression": "FLTS17299",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1729A",
+              "address": "MB08539.A",
+              "description": "&l(FLTS1729A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1729A)",
+            "expression": "FLTS1729A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17360",
+              "address": "MB08546.0",
+              "description": "&l(FLTS17360)"
+            }
+          },
+          {
+            "title": "$l(FLTS17360)",
+            "expression": "FLTS17360",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17380",
+              "address": "MB08548.0",
+              "description": "&l(FLTS17380)"
+            }
+          },
+          {
+            "title": "$l(FLTS1736C)",
+            "expression": "FLTS1736C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1736D",
+              "address": "MB08546.D",
+              "description": "&l(FLTS1736D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1736E)",
+            "expression": "FLTS1736E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1736F",
+              "address": "MB08546.F",
+              "description": "&l(FLTS1736F)"
+            }
+          },
+          {
+            "title": "$l(FLTS17380)",
+            "expression": "FLTS17380",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1738D",
+              "address": "MB08548.D",
+              "description": "&l(FLTS1738D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1738D)",
+            "expression": "FLTS1738D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17393",
+              "address": "MB08549.3",
+              "description": "&l(FLTS17393)"
+            }
+          },
+          {
+            "title": "$l(FLTS17393)",
+            "expression": "FLTS17393",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17438",
+              "address": "MB08553.8",
+              "description": "&l(FLTS17438)"
+            }
+          },
+          {
+            "title": "$l(FLTS17408)",
+            "expression": "FLTS17408",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17409",
+              "address": "MB08550.9",
+              "description": "&l(FLTS17409)"
+            }
+          },
+          {
+            "title": "$l(FLTS17409)",
+            "expression": "FLTS17409",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1740A",
+              "address": "MB08550.A",
+              "description": "&l(FLTS1740A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1740A)",
+            "expression": "FLTS1740A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1740B",
+              "address": "MB08550.B",
+              "description": "&l(FLTS1740B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1740B)",
+            "expression": "FLTS1740B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1740C",
+              "address": "MB08550.C",
+              "description": "&l(FLTS1740C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1740C)",
+            "expression": "FLTS1740C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1740D",
+              "address": "MB08550.D",
+              "description": "&l(FLTS1740D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1740D)",
+            "expression": "FLTS1740D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1740E",
+              "address": "MB08550.E",
+              "description": "&l(FLTS1740E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1740E)",
+            "expression": "FLTS1740E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1740F",
+              "address": "MB08550.F",
+              "description": "&l(FLTS1740F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1740F)",
+            "expression": "FLTS1740F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17658",
+              "address": "MB08575.8",
+              "description": "&l(FLTS17658)"
+            }
+          },
+          {
+            "title": "$l(FLTS17438)",
+            "expression": "FLTS17438",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17439",
+              "address": "MB08553.9",
+              "description": "&l(FLTS17439)"
+            }
+          },
+          {
+            "title": "$l(FLTS17439)",
+            "expression": "FLTS17439",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1743A",
+              "address": "MB08553.A",
+              "description": "&l(FLTS1743A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1743A)",
+            "expression": "FLTS1743A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1743B",
+              "address": "MB08553.B",
+              "description": "&l(FLTS1743B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1743B)",
+            "expression": "FLTS1743B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1743C",
+              "address": "MB08553.C",
+              "description": "&l(FLTS1743C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1743C)",
+            "expression": "FLTS1743C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1743D",
+              "address": "MB08553.D",
+              "description": "&l(FLTS1743D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1743D)",
+            "expression": "FLTS1743D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1743E",
+              "address": "MB08553.E",
+              "description": "&l(FLTS1743E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1743E)",
+            "expression": "FLTS1743E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1743F",
+              "address": "MB08553.F",
+              "description": "&l(FLTS1743F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1743F)",
+            "expression": "FLTS1743F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17440",
+              "address": "MB08554.0",
+              "description": "&l(FLTS17440)"
+            }
+          },
+          {
+            "title": "$l(FLTS17440)",
+            "expression": "FLTS17440",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17441",
+              "address": "MB08554.1",
+              "description": "&l(FLTS17441)"
+            }
+          },
+          {
+            "title": "$l(FLTS17441)",
+            "expression": "FLTS17441",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17442",
+              "address": "MB08554.2",
+              "description": "&l(FLTS17442)"
+            }
+          },
+          {
+            "title": "$l(FLTS17442)",
+            "expression": "FLTS17442",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17443",
+              "address": "MB08554.3",
+              "description": "&l(FLTS17443)"
+            }
+          },
+          {
+            "title": "$l(FLTS17443)",
+            "expression": "FLTS17443",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17445",
+              "address": "MB08554.5",
+              "description": "&l(FLTS17445)"
+            }
+          },
+          {
+            "title": "$l(FLTS17445)",
+            "expression": "FLTS17445",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17446",
+              "address": "MB08554.6",
+              "description": "&l(FLTS17446)"
+            }
+          },
+          {
+            "title": "$l(FLTS17446)",
+            "expression": "FLTS17446",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17448",
+              "address": "MB08554.8",
+              "description": "&l(FLTS17448)"
+            }
+          },
+          {
+            "title": "$l(FLTS17448)",
+            "expression": "FLTS17448",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17449",
+              "address": "MB08554.9",
+              "description": "&l(FLTS17449)"
+            }
+          },
+          {
+            "title": "$l(FLTS17449)",
+            "expression": "FLTS17449",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1744A",
+              "address": "MB08554.A",
+              "description": "&l(FLTS1744A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1744A)",
+            "expression": "FLTS1744A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1744B",
+              "address": "MB08554.B",
+              "description": "&l(FLTS1744B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1744B)",
+            "expression": "FLTS1744B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1744E",
+              "address": "MB08554.E",
+              "description": "&l(FLTS1744E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1744E)",
+            "expression": "FLTS1744E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1744F",
+              "address": "MB08554.F",
+              "description": "&l(FLTS1744F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1744F)",
+            "expression": "FLTS1744F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17451",
+              "address": "MB08555.1",
+              "description": "&l(FLTS17451)"
+            }
+          },
+          {
+            "title": "$l(FLTS17451)",
+            "expression": "FLTS17451",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17452",
+              "address": "MB08555.2",
+              "description": "&l(FLTS17452)"
+            }
+          },
+          {
+            "title": "$l(FLTS17452)",
+            "expression": "FLTS17452",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17453",
+              "address": "MB08555.3",
+              "description": "&l(FLTS17453)"
+            }
+          },
+          {
+            "title": "$l(FLTS17453)",
+            "expression": "FLTS17453",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17454",
+              "address": "MB08555.4",
+              "description": "&l(FLTS17454)"
+            }
+          },
+          {
+            "title": "$l(FLTS17454)",
+            "expression": "FLTS17454",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17455",
+              "address": "MB08555.5",
+              "description": "&l(FLTS17455)"
+            }
+          },
+          {
+            "title": "$l(FLTS17455)",
+            "expression": "FLTS17455",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17456",
+              "address": "MB08555.6",
+              "description": "&l(FLTS17456)"
+            }
+          },
+          {
+            "title": "$l(FLTS17456)",
+            "expression": "FLTS17456",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17457",
+              "address": "MB08555.7",
+              "description": "&l(FLTS17457)"
+            }
+          },
+          {
+            "title": "$l(FLTS17457)",
+            "expression": "FLTS17457",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17458",
+              "address": "MB08555.8",
+              "description": "&l(FLTS17458)"
+            }
+          },
+          {
+            "title": "$l(FLTS17458)",
+            "expression": "FLTS17458",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17459",
+              "address": "MB08555.9",
+              "description": "&l(FLTS17459)"
+            }
+          },
+          {
+            "title": "$l(FLTS17459)",
+            "expression": "FLTS17459",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17472",
+              "address": "MB08557.2",
+              "description": "&l(FLTS17472)"
+            }
+          },
+          {
+            "title": "$l(FLTS17472)",
+            "expression": "FLTS17472",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17473",
+              "address": "MB08557.3",
+              "description": "&l(FLTS17473)"
+            }
+          },
+          {
+            "title": "$l(FLTS17473)",
+            "expression": "FLTS17473",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17480",
+              "address": "MB08558.0",
+              "description": "&l(FLTS17480)"
+            }
+          },
+          {
+            "title": "$l(FLTS17480)",
+            "expression": "FLTS17480",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17481",
+              "address": "MB08558.1",
+              "description": "&l(FLTS17481)"
+            }
+          },
+          {
+            "title": "$l(FLTS17481)",
+            "expression": "FLTS17481",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17482",
+              "address": "MB08558.2",
+              "description": "&l(FLTS17482)"
+            }
+          },
+          {
+            "title": "$l(FLTS17482)",
+            "expression": "FLTS17482",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17483",
+              "address": "MB08558.3",
+              "description": "&l(FLTS17483)"
+            }
+          },
+          {
+            "title": "$l(FLTS17483)",
+            "expression": "FLTS17483",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17484",
+              "address": "MB08558.4",
+              "description": "&l(FLTS17484)"
+            }
+          },
+          {
+            "title": "$l(FLTS17484)",
+            "expression": "FLTS17484",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17485",
+              "address": "MB08558.5",
+              "description": "&l(FLTS17485)"
+            }
+          },
+          {
+            "title": "$l(FLTS17485)",
+            "expression": "FLTS17485",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17486",
+              "address": "MB08558.6",
+              "description": "&l(FLTS17486)"
+            }
+          },
+          {
+            "title": "$l(FLTS17486)",
+            "expression": "FLTS17486",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17487",
+              "address": "MB08558.7",
+              "description": "&l(FLTS17487)"
+            }
+          },
+          {
+            "title": "$l(FLTS17487)",
+            "expression": "FLTS17487",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1748B",
+              "address": "MB08558.B",
+              "description": "&l(FLTS1748B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1748B)",
+            "expression": "FLTS1748B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1748C",
+              "address": "MB08558.C",
+              "description": "&l(FLTS1748C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1748C)",
+            "expression": "FLTS1748C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1748D",
+              "address": "MB08558.D",
+              "description": "&l(FLTS1748D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1748D)",
+            "expression": "FLTS1748D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1748E",
+              "address": "MB08558.E",
+              "description": "&l(FLTS1748E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1748E)",
+            "expression": "FLTS1748E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1748F",
+              "address": "MB08558.F",
+              "description": "&l(FLTS1748F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1748F)",
+            "expression": "FLTS1748F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17490",
+              "address": "MB08559.0",
+              "description": "&l(FLTS17490)"
+            }
+          },
+          {
+            "title": "$l(FLTS17490)",
+            "expression": "FLTS17490",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17491",
+              "address": "MB08559.1",
+              "description": "&l(FLTS17491)"
+            }
+          },
+          {
+            "title": "$l(FLTS17491)",
+            "expression": "FLTS17491",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17492",
+              "address": "MB08559.2",
+              "description": "&l(FLTS17492)"
+            }
+          },
+          {
+            "title": "$l(FLTS17492)",
+            "expression": "FLTS17492",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17493",
+              "address": "MB08559.3",
+              "description": "&l(FLTS17493)"
+            }
+          },
+          {
+            "title": "$l(FLTS17493)",
+            "expression": "FLTS17493",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17494",
+              "address": "MB08559.4",
+              "description": "&l(FLTS17494)"
+            }
+          },
+          {
+            "title": "$l(FLTS17494)",
+            "expression": "FLTS17494",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17495",
+              "address": "MB08559.5",
+              "description": "&l(FLTS17495)"
+            }
+          },
+          {
+            "title": "$l(FLTS17495)",
+            "expression": "FLTS17495",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17496",
+              "address": "MB08559.6",
+              "description": "&l(FLTS17496)"
+            }
+          },
+          {
+            "title": "$l(FLTS17496)",
+            "expression": "FLTS17496",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17497",
+              "address": "MB08559.7",
+              "description": "&l(FLTS17497)"
+            }
+          },
+          {
+            "title": "$l(FLTS17497)",
+            "expression": "FLTS17497",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17498",
+              "address": "MB08559.8",
+              "description": "&l(FLTS17498)"
+            }
+          },
+          {
+            "title": "$l(FLTS17498)",
+            "expression": "FLTS17498",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17499",
+              "address": "MB08559.9",
+              "description": "&l(FLTS17499)"
+            }
+          },
+          {
+            "title": "$l(FLTS17499)",
+            "expression": "FLTS17499",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1749A",
+              "address": "MB08559.A",
+              "description": "&l(FLTS1749A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1749A)",
+            "expression": "FLTS1749A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1749B",
+              "address": "MB08559.B",
+              "description": "&l(FLTS1749B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1749B)",
+            "expression": "FLTS1749B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1749C",
+              "address": "MB08559.C",
+              "description": "&l(FLTS1749C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1749C)",
+            "expression": "FLTS1749C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1749D",
+              "address": "MB08559.D",
+              "description": "&l(FLTS1749D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1749D)",
+            "expression": "FLTS1749D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1749E",
+              "address": "MB08559.E",
+              "description": "&l(FLTS1749E)"
+            }
+          },
+          {
+            "title": "$l(FLTS1749E)",
+            "expression": "FLTS1749E",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1749F",
+              "address": "MB08559.F",
+              "description": "&l(FLTS1749F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1749F)",
+            "expression": "FLTS1749F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17510",
+              "address": "MB08561.0",
+              "description": "&l(FLTS17510)"
+            }
+          },
+          {
+            "title": "$l(FLTS17510)",
+            "expression": "FLTS17510",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17511",
+              "address": "MB08561.1",
+              "description": "&l(FLTS17511)"
+            }
+          },
+          {
+            "title": "$l(FLTS17511)",
+            "expression": "FLTS17511",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1751A",
+              "address": "MB08561.A",
+              "description": "&l(FLTS1751A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1751A)",
+            "expression": "FLTS1751A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1751B",
+              "address": "MB08561.B",
+              "description": "&l(FLTS1751B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1751B)",
+            "expression": "FLTS1751B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1751C",
+              "address": "MB08561.C",
+              "description": "&l(FLTS1751C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1751C)",
+            "expression": "FLTS1751C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1751D",
+              "address": "MB08561.D",
+              "description": "&l(FLTS1751D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1751D)",
+            "expression": "FLTS1751D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17523",
+              "address": "MB08562.3",
+              "description": "&l(FLTS17523)"
+            }
+          },
+          {
+            "title": "$l(FLTS17523)",
+            "expression": "FLTS17523",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17524",
+              "address": "MB08562.4",
+              "description": "&l(FLTS17524)"
+            }
+          },
+          {
+            "title": "$l(FLTS17524)",
+            "expression": "FLTS17524",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17525",
+              "address": "MB08562.5",
+              "description": "&l(FLTS17525)"
+            }
+          },
+          {
+            "title": "$l(FLTS17525)",
+            "expression": "FLTS17525",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17526",
+              "address": "MB08562.6",
+              "description": "&l(FLTS17526)"
+            }
+          },
+          {
+            "title": "$l(FLTS17526)",
+            "expression": "FLTS17526",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17527",
+              "address": "MB08562.7",
+              "description": "&l(FLTS17527)"
+            }
+          },
+          {
+            "title": "$l(FLTS17527)",
+            "expression": "FLTS17527",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17528",
+              "address": "MB08562.8",
+              "description": "&l(FLTS17528)"
+            }
+          },
+          {
+            "title": "$l(FLTS17528)",
+            "expression": "FLTS17528",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17529",
+              "address": "MB08562.9",
+              "description": "&l(FLTS17529)"
+            }
+          },
+          {
+            "title": "$l(FLTS17529)",
+            "expression": "FLTS17529",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1752A",
+              "address": "MB08562.A",
+              "description": "&l(FLTS1752A)"
+            }
+          },
+          {
+            "title": "$l(FLTS1752A)",
+            "expression": "FLTS1752A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1752C",
+              "address": "MB08562.C",
+              "description": "&l(FLTS1752C)"
+            }
+          },
+          {
+            "title": "$l(FLTS1752C)",
+            "expression": "FLTS1752C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1752D",
+              "address": "MB08562.D",
+              "description": "&l(FLTS1752D)"
+            }
+          },
+          {
+            "title": "$l(FLTS1752D)",
+            "expression": "FLTS1752D",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17560",
+              "address": "MB08566.0",
+              "description": "&l(FLTS17560)"
+            }
+          },
+          {
+            "title": "$l(FLTS17560)",
+            "expression": "FLTS17560",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17561",
+              "address": "MB08566.1",
+              "description": "&l(FLTS17561)"
+            }
+          },
+          {
+            "title": "$l(FLTS17561)",
+            "expression": "FLTS17561",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17562",
+              "address": "MB08566.2",
+              "description": "&l(FLTS17562)"
+            }
+          },
+          {
+            "title": "$l(FLTS17562)",
+            "expression": "FLTS17562",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17563",
+              "address": "MB08566.3",
+              "description": "&l(FLTS17563)"
+            }
+          },
+          {
+            "title": "$l(FLTS17563)",
+            "expression": "FLTS17563",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17564",
+              "address": "MB08566.4",
+              "description": "&l(FLTS17564)"
+            }
+          },
+          {
+            "title": "$l(FLTS17564)",
+            "expression": "FLTS17564",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17565",
+              "address": "MB08566.5",
+              "description": "&l(FLTS17565)"
+            }
+          },
+          {
+            "title": "$l(FLTS17565)",
+            "expression": "FLTS17565",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17568",
+              "address": "MB08566.8",
+              "description": "&l(FLTS17568)"
+            }
+          },
+          {
+            "title": "$l(FLTS17568)",
+            "expression": "FLTS17568",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1757B",
+              "address": "MB08567.B",
+              "description": "&l(FLTS1757B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1757B)",
+            "expression": "FLTS1757B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17006",
+              "address": "MB08510.6",
+              "description": "&l(FLTS17006)"
+            }
+          },
+          {
+            "title": "$l(FLTS1757C)",
+            "expression": "FLTS1757C",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1757F",
+              "address": "MB08567.F",
+              "description": "&l(FLTS1757F)"
+            }
+          },
+          {
+            "title": "$l(FLTS1757F)",
+            "expression": "FLTS1757F",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17008",
+              "address": "MB08510.8",
+              "description": "&l(FLTS17008)"
+            }
+          },
+          {
+            "title": "$l(FLTS1719A)",
+            "expression": "FLTS1719A",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS1719B",
+              "address": "MB08529.B",
+              "description": "&l(FLTS1719B)"
+            }
+          },
+          {
+            "title": "$l(FLTS1719B)",
+            "expression": "FLTS1719B",
+            "type": "indicator",
+            "group": "FLT",
+            "suffix": "",
+            "options": [
+              {
+                "key": "red",
+                "value": true
+              },
+              {
+                "key": "grey",
+                "value": false
+              },
+              {
+                "key": "grey"
+              }
+            ],
+            "tip": {
+              "name": "FLTS17291",
+              "address": "MB08539.1",
+              "description": "&l(FLTS17291)"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
